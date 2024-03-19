@@ -53,7 +53,7 @@ const ApexMenuBarChart = ({
 
   const options: ApexOptions = {
     stroke: { lineCap: 'round' },
-    labels: ['식사준비', '예약'],
+    labels: ['영업중'],
 
     legend: {
       show: true,

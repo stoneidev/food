@@ -13,21 +13,22 @@ const Img = styled('img')(({ theme }) => ({
   borderRadius: theme.shape.borderRadius
 }))
 
-const CardHorizontalRatings = () => {
+const CardHorizontalRatings1 = () => {
   return (
     <Card>
       <Grid container>
         <Grid item xs={12} md={6} lg={7}>
           <CardContent>
             <Typography variant='h5' className='mbe-2'>
-              Stonei
+              Tailwind
             </Typography>
             <div className='flex flex-wrap gap-x-2 gap-y-1 mbe-2'>
               <Rating name='read-only' value={4} readOnly />
-              <Typography>4 Star | 98 reviews</Typography>
+              <Typography>3 Star | 50 reviews</Typography>
             </div>
             <Typography color='text.secondary'>
-              오늘 매실청제육불고기는 달지 않으면서도 매우 감칠맛이 뛰어났습니다. 봄에 꼭 맞는 메뉴입니다.
+              오늘 베이컨 깍두기 볶음밥은 매우 참심한 메뉴였습니다. 밖에 퓨전 한식집에서 볼 수 있는 메뉴였습니다. 하지만
+              개인적으로는 저의 입맛에는 약간 맞지는 않은 것 같습니다.
             </Typography>
           </CardContent>
           {/* <CardActions className='card-actions-dense'>
@@ -37,7 +38,7 @@ const CardHorizontalRatings = () => {
         </Grid>
         <Grid item xs={12} md={6} lg={5} className='flex items-center justify-center md:order-[unset] -order-1'>
           <CardContent className='flex items-center justify-center'>
-            <Img src='/images/food/food.jpg' height={175} />
+            <Img src='/images/food/bbq.jpg' height={175} />
           </CardContent>
         </Grid>
       </Grid>
@@ -45,4 +46,4 @@ const CardHorizontalRatings = () => {
   )
 }
 
-export default CardHorizontalRatings
+export default CardHorizontalRatings1

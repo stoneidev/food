@@ -6,6 +6,7 @@ import { getServerMode } from '@core/utils/serverHelpers'
 import ApexMenuBarChart from '@/views/charts/apex/ApexMenuBarChart'
 import FoodStatisticsCard from '@/views/dashboards/ecommerce/FoodStatisticsCard'
 import CardHorizontalRatings from '@/views/pages/widget-examples/basic/CardHorizontalRatings'
+import CardHorizontalRatings1 from '@/views/pages/widget-examples/basic/CardHorizontalRatings1'
 
 const Home = async () => {
   const serverMode = getServerMode()
@@ -50,7 +51,7 @@ const Home = async () => {
         <CardHorizontalRatings />
       </Grid>
       <Grid item xs={12} sm={6}>
-        <CardHorizontalRatings />
+        <CardHorizontalRatings1 />
       </Grid>
       <Grid item xs={12} sm={6}>
         <CardHorizontalRatings />
